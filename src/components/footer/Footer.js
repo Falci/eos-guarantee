@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container">
         <p>
           Created by <a href="https://falci.me" target="_blank">Fernando Falci</a>.
-          &nbsp;View on <a href="https://github.com/Falci/eos-guarantee">Github</a>.
+          &nbsp;View on <a href="https://github.com/Falci/eos-guarantee" target="_blank">Github</a>.
         </p>
       </div>
     </footer>

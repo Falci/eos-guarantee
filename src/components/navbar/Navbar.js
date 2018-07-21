@@ -19,14 +19,14 @@ export function Navbar() {
               <NavLink activeClassName="active" className="nav-link" to="/new">New</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink activeClassName="active" className="nav-link" to="/open">Listing</NavLink>
+              <NavLink activeClassName="active" className="nav-link" to="/open">Pending</NavLink>
             </li>
             <li className="nav-item">
               <NavLink activeClassName="active" className="nav-link" to="/about">About</NavLink>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
-            <input className="form-control mr-sm-2" type="text" placeholder="Contract id" />
+            <input className="form-control mr-sm-2" type="text" placeholder="Contract ID" />
             <button className="btn btn-secondary my-2 my-sm-0" type="submit">Find</button>
           </form>
         </div>

@@ -5,7 +5,7 @@ export class Listing extends Component {
   render() {
     return (
       <div>
-        <h2>List pending contracts</h2>
+        <h2>Pending contracts</h2>
 
         <div className="row">
           <div className="col-sm-4">

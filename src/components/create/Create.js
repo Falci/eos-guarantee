@@ -15,15 +15,15 @@ export class Create extends Component {
               </div>
 
               <div className="form-group">
-                <label htmlFor="my">Your side:</label>
+                <label htmlFor="my">Your side (contractor):</label>
                 <input type="text" className="form-control" id="my" aria-describedby="myHelp" placeholder="100.00" />
-                <small id="myHelp" className="form-text text-muted">How much EOS will you put in this contract?</small>
+                <small id="myHelp" className="form-text text-muted">How much EOS will <strong>you</strong> (contractor) put in this contract?</small>
               </div>
 
               <div className="form-group">
-                <label htmlFor="other">Other side:</label>
+                <label htmlFor="other">Other side (contracted):</label>
                 <input type="text" className="form-control" id="other" aria-describedby="otherHelp" placeholder="100.00" />
-                <small id="otherHelp" className="form-text text-muted">How much EOS will your customer put in this contract?</small>
+                <small id="otherHelp" className="form-text text-muted">How much EOS will the contracted put in this contract?</small>
               </div>
 
               <button type="submit" className="btn btn-primary">Submit</button>
